@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Cultured Systems
+tagline:          'Everyday life and the sociability of code'
+description:      ''
+url:              http://cultured.systems/
+baseurl:          /
+
+author:
+  name:           'Tim Fisken'
+  url:            http://cultured.systems/
+
+paginate:         5
+
+  
+
