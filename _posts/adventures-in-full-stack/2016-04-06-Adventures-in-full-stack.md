@@ -25,7 +25,7 @@ The point of this whole thing is to periodically post tweets according to certai
 
 ## The frontend ##
 
-As the initial point of this project was to learn about newer frontend frameworks, I'm already planning to implement this at least twice. First, I'll try [Ember](http://emberjs.com/), which seems fairly widely used, and also seems appealingly full-featured from my "choice is bad" perspective. I'll also try [React](https://facebook.github.io/react/) (possible with [Redux](http://redux.js.org/)), which is an interesting, newer approach. The other widely-used frontend framwork seems to be [Angular](https://angularjs.org/), but it's currently undergoing a fairly extensive redesign, I'm not sure yet whether to try the current version or the future version, Angular 2 (or, frankly, just to skip it, as it looks overengineered and convoluted).
+As the initial point of this project was to learn about newer frontend frameworks, I'm already planning to implement this at least twice. First, I'll try [Ember](http://emberjs.com/), which seems fairly widely used, and also seems appealingly full-featured from my "choice is bad" perspective. I'll also try [React](https://facebook.github.io/react/) (possibly with [Redux](http://redux.js.org/)), which is an interesting, newer approach. The other widely-used frontend framwork seems to be [Angular](https://angularjs.org/), but it's currently undergoing a fairly extensive redesign, I'm not sure yet whether to try the current version or the future version, Angular 2 (or, frankly, just to skip it, as it looks overengineered and convoluted).
 
 
 ## The infrastructure ##
