@@ -1,5 +1,6 @@
 ---
 title: Labels and things
+layout: post
 ---
 The Birkbeck Computer Science MSc I'm currently taking includes a required
 module on Programming in Java, with the quite sensible purpose of making sure
