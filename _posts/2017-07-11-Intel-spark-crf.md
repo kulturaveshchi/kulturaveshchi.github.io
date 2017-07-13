@@ -51,15 +51,15 @@ bigram features, because they specify a relationship between the classification 
 Both of these bigram features only refer to the classification of the previous token: general CRF
 models allow bigram features to refer to the classification of any other token in the sequence, 
 but IMLLIB's CRF engine only allows bigram features that relate adjacent tokens (I believe such a
-model is called a "linear chain CRF").
+model is called a 'linear chain CRF').
 
 So, tokens are sequences of attributes, while features are specified in terms of an attribute and
 the relative position of the token that has that attribute (and, optionally, the classification 
 of the previous token). These are specified using feature templates, for which IMLLIB inherits 
-CRF++'s rather obscure syntax. You supply the feature templates as an array of strings, where 
+[CRF++](https://taku910.github.io/crfpp/)'s rather obscure syntax. You supply the feature templates as an array of strings, where 
 each string is one template, having the following format:
 
-  - the letter `U` (for a unigram feature) or `B` ()for a bigram feature)
+  - the letter `U` (for a unigram feature) or `B` (for a bigram feature)
   - an arbitrary string, which is the label for this feature
   - a colon, `:`
   - the string, `%x`
@@ -124,7 +124,8 @@ where the index of an attribute corresponds to the index of the feature in the s
 feature templates, like so:
 
 ```scala
-def tokensAsStrings[A](templates: Seq[FeatureTemplate[A]], tokens: Seq[A]):
+def tokensAsStrings[A](templates: Seq[FeatureTemplate[A]], 
+                        tokens: Seq[A]):
     Seq[Array[String]] = {
   tokens.map { token =>
     templates.map { template =>
@@ -139,7 +140,8 @@ and then generate feature templates which use indexes corresponding to these att
 features and `B` for bigrams):
 
 ```scala
-def templatesAsStrings[A](templates: Seq[FeatureTemplate[A]]): Array[String] = {
+def templatesAsStrings[A](templates: Seq[FeatureTemplate[A]]): 
+    Array[String] = {
   templates.zipWithIndex.map {
     case (template, index) =>
       s"${template.tag}$index:%x[${template.relative},$index]"
