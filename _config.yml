@@ -10,7 +10,7 @@ title:            Cultured Systems
 tagline:          'Everyday life and the sociability of code'
 description:      ''
 url:              http://www.cultured.systems/
-baseurl:          /
+#baseurl:          /
 
 author:
   name:           'Tim Fisken'
