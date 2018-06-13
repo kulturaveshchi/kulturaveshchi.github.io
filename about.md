@@ -6,6 +6,6 @@ title: About
 
 [Cultured Systems](https://cultured.systems/) is a blog about software development, about writing code and getting it to run. That is, about building the systems that we, and our comrade cultured objects, live within. 
 
-Cultured Systems is written by [Tim Fisken](https://www.timfisken.org/), an MSc student in Computer Science.
+Cultured Systems is written by [Tim Fisken](https://www.timfisken.org/), a software developer based in London.
 
 This web site is built with [Jekyll](https://jekyllrb.com/) and is based on the [Hyde](http://hyde.getpoole.com/) theme. 
