@@ -7,7 +7,7 @@ excerpt_separator: <!-- more -->
 
 I was recently writing some code using Scala's [fs2](https://fs2.io/) streaming library, where I wanted
 to produce a stream of effects, starting with a given effect and then generating
-each subsequent effect from  the value produces by the preceding effect. Unless I missed something,
+each subsequent effect from  the value produced by the preceding effect. Unless I missed something,
 fs2 doesn't seem to have this facility built in; there's `iterateEval`, which
 produces a stream of effects, but this requires a seed value which is itself
 *not* produced by an effect. It turns out to be fairly straight-forward to write
