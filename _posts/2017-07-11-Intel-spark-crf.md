@@ -13,7 +13,7 @@ part of [Intel's IMLLIB](https://github.com/Intel-bigdata/imllib-spark).
 Unfortunately, it's not very well documented, so I've spent the past couple of
 days figuring out how to use it, which I thought I'd document here in case
 it's of any use to anyone else (even if that other person is just me in a few
-weeks time).
+weeks time). <!-- more -->
 
 The library has two primary entry points: `CRF.train(templates, sequences)`, a
 method on the CRF object which takes an array of features templates and an
