@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Functional programming is infectious
+summary: You learn about clever purely-functional abstractions and you think, neat, but
+    not really relevant to everyday programming; then the next thing you know,
+    you're implementing a fairly boring bit of business logic and you think, dammit,
+    what I really need here are profunctor optics. 
 ---
 
 You learn about clever purely-functional abstractions and you think, neat, but
