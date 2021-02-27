@@ -9,12 +9,12 @@ permalink:        pretty
 title:            Cultured Systems
 tagline:          'Everyday life and the sociability of code'
 description:      ''
-url:              http://www.cultured.systems/
+url:              https://www.cultured.systems/
 #baseurl:          /
 
 author:
   name:           'Tim Fisken'
-  url:            http://www.cultured.systems/
+  url:            https://www.cultured.systems/
 
 paginate:         5
 
